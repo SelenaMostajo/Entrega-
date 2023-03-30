@@ -1,0 +1,6 @@
+# Ignorar directorios
+node_modules/
+wirefram/
+# Ignorar archivos
+css/styles.css
+css/styles.css.map
