@@ -113,23 +113,14 @@
 }
 
 .footer {
-  #mensaje {
-    width: 50px;
-  }
+  text-align: center;
+  .stilofooter {
+    img {
+      width: 50px;
+    }
 
-  #facebook {
-    width: 50px;
-  }
-
-  #instagram {
-    width: 50px;
-  }
-
-  #whatsapp {
-    width: 50px;
-  }
-
-  .logo {
-    width: 50px;
+    &.telefono {
+      color: white;
+    }
   }
 }
