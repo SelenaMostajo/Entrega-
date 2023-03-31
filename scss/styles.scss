@@ -7,6 +7,22 @@
     rgba(19, 21, 29, 1) 80%
   );
 }
+.portada-home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin-bottom: 20px;
+  margin: 2vw;
+  margin-top: 0%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 30px;
+  box-shadow: 5px 8px 12px black;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
 .botones {
   float: right;
   font-size: medium;
@@ -22,7 +38,7 @@
 }
 
 .textoprincipalhome {
-  color: white;
+  color: rgb(254, 254, 254);
   text-align: center;
 }
 
@@ -36,12 +52,37 @@
 }
 
 .descripcion {
-  font-size: large;
-  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  font-weight: 700;
   float: right;
+  margin-right: 10vw;
   width: 600px;
-  color: white;
-  margin-top: 200px;
+  margin-top: 100px;
+  color: #000000;
+
+  color: #fff;
+  background-image: linear-gradient(
+    45deg,
+    #000000 20%,
+    #8a0606 35%,
+    #ffffff 85%,
+    #ffffff 100%
+  
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  color: #000000;
+  background-clip: text;
+}
+
+.tamaño {
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: 700;
+  height: 100px;
+  font-size: 50px;
 }
 
 .imagenyo {
@@ -49,7 +90,15 @@
   margin-right: 10px;
   margin-left: 10px;
 }
-
+.descripcion-personal {
+  border-radius: 30px;
+  box-shadow: 5px 8px 12px black;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
 #yo {
   width: 400px;
   background-position: left;
@@ -126,7 +175,7 @@
       width: 45vw;
       &:not([type="text"]) {
         width: 20vw;
-        margin: 10px 2vw ;
+        margin: 10px 2vw;
         font-weight: 600;
       }
     }
@@ -188,11 +237,12 @@
   text-align: center;
   .stilofooter {
     img {
-      width: 50px;
+      width: 40px;
+      margin-left: 15px;
     }
 
     &.telefono {
-      color: white;
+      color: rgb(8, 8, 8);
     }
   }
 }
