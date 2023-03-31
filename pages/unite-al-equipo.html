@@ -13,7 +13,14 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-
+    <!-- SEO -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="fotografia capser" />
+    <meta
+      property="og:description"
+      content="trabaja en un estudio de fotografía, unite al equipo capser, editor de fotografias, estilista"
+    />
+    <!-- FIN SEO -->
     <!-- titulo -->
     <title>CAPSER</title>
 
@@ -81,58 +88,68 @@
 
     <div class="imagenunitealequipo">
       <!-- titulo -->
-      <h1 class="trabajaconnosotros" style="color: #ffffff" class="titulo">
+
+      <h1 class="tamaño" class="text-center" class="display-3">
         ¡Trabaja con nosotros!
       </h1>
 
       <!-- formulario -->
 
-      <form class="formularioalin" action="" method="post" enctype="text/plain">
-        <input
-          placeholder="Nombre completo"
-          type="text"
-          name="nombre"
-          maxlength="100"
-        />
+      <div class="row" class="col-xs-12 col-md-6" class="col-xs-12">
+        <label for="exampleFormControlInput1" class="form-label"></label>>
+        <form
+          class="formularioalin"
+          action=""
+          method="post"
+          enctype="text/plain"
+        >
+          <input
+            placeholder="Nombre completo"
+            type="text"
+            name="nombre"
+            maxlength="100"
+          />
 
-        <input placeholder="Email" type="text" name="email" maxlength="100" />
+          <input placeholder="Email" type="text" name="email" maxlength="100" />
 
-        <input
-          placeholder="Celular"
-          type="text"
-          name="celular"
-          maxlength="100"
-        />
+          <input
+            placeholder="Celular"
+            type="text"
+            name="celular"
+            maxlength="100"
+          />
 
-        <input
-          placeholder="Nacionalidad"
-          type="text"
-          name="poblacion"
-          maxlength="60"
-        />
+          <input
+            placeholder="Nacionalidad"
+            type="text"
+            name="poblacion"
+            maxlength="60"
+          />
 
-        <input
-          placeholder="Fecha de nacimiento"
-          type="text"
-          name="poblacion"
-          maxlength="60"
-        />
-        <div class="especialidad">
-          <div class="titulo">Especialidad</div>
+          <input
+            placeholder="Fecha de nacimiento"
+            type="text"
+            name="poblacion"
+            maxlength="60"
+          />
+          <div class="especialidad">
+            <div class="titulo">Especialidad</div>
 
-          <select name="utilizacion" aria-placeholder="">
-            <option value="1">Fotógrafo</option>
-            <option value="2">Community Manager</option>
-            <option value="3">Estilista/maquilladora</option>
-            <option value="4">Asistente fotógrafico</option>
-            <option value="5">Editor</option>
-          </select>
-        </div>
+            <select name="utilizacion" aria-placeholder="">
+              <option value="1">Fotógrafo</option>
+              <option value="2">Community Manager</option>
+              <option value="3">Estilista/maquilladora</option>
+              <option value="4">Asistente fotógrafico</option>
+              <option value="5">Editor</option>
+            </select>
+          </div>
 
-        <input type="submit" value="Enviar formulario" />
-
-        <input type="Reset" value="Borrar todo" />
-      </form>
+          <div class="col-xs-12 mt-3">
+            <button class="btn btn-dark" type="submit">Enviar</button>
+            <button class="btn btn-dark" type="reset">Borrar</button>
+          </div>
+        </form>
+      </div>
     </div>
     <footer>
       <div class="footer">
