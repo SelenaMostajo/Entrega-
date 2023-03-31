@@ -87,59 +87,53 @@
 
       <!-- formulario -->
 
-      <form
-        class="formularioalin"
-        action=""
-        method="post"
-        enctype="text/plain"
-        style="color: #ffffff"
-      >
-        <br />
-        <br />
-        Nombre completo
-        <input type="text" name="nombre" size="30" maxlength="100" />
-        <br />
-        <br />
-        Email
-        <input type="text" name="email" size="25" maxlength="100" value="@" />
-        <br />
-        <br />
-        Celular <input type="text" name="nombre" size="30" maxlength="100" />
-        <br />
-        <br />
-        Nacionalidad
-        <input type="text" name="poblacion" size="20" maxlength="60" />
-        <br />
-        <br />
-        Fecha de nacimiento
-        <input type="text" name="poblacion" size="20" maxlength="60" />
-        <br />
-        <br />
-        Especialidad
-        <select name="utilizacion">
-          <option value="1">Fotógrafo</option>
-          <option value="2">Community Manager</option>
-          <option value="3">Estilista/maquilladora</option>
-          <option value="4">Asistente fotógrafico</option>
-          <option value="5">Editor</option>
-        </select>
+      <form class="formularioalin" action="" method="post" enctype="text/plain">
+        <input
+          placeholder="Nombre completo"
+          type="text"
+          name="nombre"
+          maxlength="100"
+        />
 
-        <br />
-        <br />
+        <input placeholder="Email" type="text" name="email" maxlength="100" />
+
+        <input
+          placeholder="Celular"
+          type="text"
+          name="celular"
+          maxlength="100"
+        />
+
+        <input
+          placeholder="Nacionalidad"
+          type="text"
+          name="poblacion"
+          maxlength="60"
+        />
+
+        <input
+          placeholder="Fecha de nacimiento"
+          type="text"
+          name="poblacion"
+          maxlength="60"
+        />
+        <div class="especialidad">
+          <div class="titulo">Especialidad</div>
+
+          <select name="utilizacion" aria-placeholder="">
+            <option value="1">Fotógrafo</option>
+            <option value="2">Community Manager</option>
+            <option value="3">Estilista/maquilladora</option>
+            <option value="4">Asistente fotógrafico</option>
+            <option value="5">Editor</option>
+          </select>
+        </div>
+
         <input type="submit" value="Enviar formulario" />
-        <br />
+
         <input type="Reset" value="Borrar todo" />
       </form>
-
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"
-      ></script>
-      <br />
     </div>
-    <br />
-    <br />
     <footer>
       <div class="footer">
         <a class="stilofooter" href="../pages/contacto.html"
@@ -173,5 +167,11 @@
       <br />
       <br />
     </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
