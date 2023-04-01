@@ -1,0 +1,234 @@
+@charset "UTF-8";
+.fondo-gradiente {
+  background: rgb(13, 13, 18);
+  background: linear-gradient(90deg, rgb(13, 13, 18) 20%, rgb(216, 223, 224) 50%, rgb(19, 21, 29) 80%);
+}
+
+.portada-home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin-bottom: 20px;
+  margin: 2vw;
+  margin-top: 0%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 30px;
+  box-shadow: 5px 8px 12px black;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.botones {
+  float: right;
+  font-size: medium;
+  font-weight: 300;
+  color: white;
+  display: inline;
+}
+
+#logo {
+  font-size: medium;
+  font-weight: 500;
+  color: white;
+}
+
+.textoprincipalhome {
+  color: rgb(254, 254, 254);
+  text-align: center;
+}
+
+.homefondo {
+  background-position: center center;
+  text-align: center;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 1335px;
+  height: 500px;
+}
+
+.descripcion {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  font-weight: 700;
+  float: right;
+  margin-right: 10vw;
+  width: 600px;
+  margin-top: 100px;
+  color: #000000;
+  color: #fff;
+  background-image: linear-gradient(45deg, #000000 20%, #8a0606 35%, #ffffff 85%, #ffffff 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  color: #000000;
+  background-clip: text;
+}
+
+.tamaño {
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: 700;
+  height: 100px;
+  font-size: 45px;
+  color: #f6f6f6;
+}
+
+.imagenyo {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.descripcion-personal {
+  border-radius: 30px;
+  box-shadow: 5px 8px 12px black;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.descripcion-personal:hover {
+  transform: scale(1.1);
+}
+
+#yo {
+  width: 400px;
+  background-position: left;
+  margin-left: 100px;
+}
+
+.black-background {
+  background-color: black;
+}
+
+.contactoimg {
+  background: url(../img/contactanos.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 70vh;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactoimg .container {
+  text-align: center;
+}
+
+.textocontacto {
+  background: transparent;
+  display: table;
+  flex-direction: column;
+  height: 100px;
+  font-size: larger;
+  color: white;
+  float: left;
+  margin: 0%;
+  margin-top: 50px;
+}
+
+.formulariocontacto {
+  text-align: right;
+  font-size: 20px;
+}
+
+.anv {
+  background-color: black;
+  color: white;
+}
+
+.imagenunitealequipo {
+  background-image: url(../img/foto\ unite\ al\ equipo.jpg);
+  background-position: center center;
+  text-align: center;
+  background-size: cover;
+  height: fit-content;
+  margin-bottom: 25px;
+  width: 100%;
+}
+.imagenunitealequipo form {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: gray;
+}
+.imagenunitealequipo form input {
+  margin: 10px 25vw;
+  width: 45vw;
+}
+.imagenunitealequipo form input:not([type=text]) {
+  width: 20vw;
+  margin: 10px 2vw;
+  font-weight: 600;
+}
+.imagenunitealequipo form .especialidad {
+  margin: 10px 25vw;
+  display: flex;
+  justify-content: center;
+}
+.imagenunitealequipo form .especialidad .titulo {
+  font-weight: 600;
+  color: black;
+  margin-right: 5px;
+}
+
+.formularioalin {
+  text-align: center;
+  font-size: 20px;
+}
+
+.enlacesimagenesservicios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 25px;
+}
+.enlacesimagenesservicios a {
+  margin: 1.5vw;
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 5px 8px 12px black;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.enlacesimagenesservicios a:hover {
+  transform: scale(1.1);
+}
+.enlacesimagenesservicios a .servicio-titulo {
+  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+  border-radius: 5px;
+  color: black;
+  font-weight: 600;
+  font-size: 4vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.enlacesimagenesservicios a .servicio-titulo::first-letter {
+  text-transform: capitalize;
+}
+.enlacesimagenesservicios a img {
+  width: 25vw;
+}
+
+.footer {
+  text-align: center;
+}
+.footer .stilofooter img {
+  width: 40px;
+  margin-left: 15px;
+}
+.footer .stilofooter.telefono {
+  color: rgb(8, 8, 8);
+}
+
+/*# sourceMappingURL=styles.css.map */
