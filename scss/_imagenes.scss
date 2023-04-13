@@ -1,0 +1,93 @@
+// page home
+.portada-home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin-bottom: 20px;
+  margin: 2vw;
+  margin-top: 0%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 30px;
+  box-shadow: 5px 8px 12px black;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+// page descripcion 
+#foto-descripción {
+  width: 400px;
+  background-position: left;
+  margin-left: 100px;
+  margin-top: 10%;
+}
+.imagenpersonal {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.descripcion-personal {
+    border-radius: 30px;
+    box-shadow: 5px 8px 12px black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  
+.contactoimg {
+  background: url(../img/contactanos.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 70vh;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container {
+    text-align: center;
+  }
+//   page unite al equipo
+}
+.imagenunitealequipo {
+  background-image: url(../img/foto\ unite\ al\ equipo.jpg);
+  background-position: center center;
+  text-align: center;
+  background-size: cover;
+  height: fit-content;
+  margin-bottom: 25px;
+  width: 100%;
+
+  form {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: gray;
+    input {
+      margin: 10px 25vw;
+      width: 45vw;
+      &:not([type="text"]) {
+        width: 20vw;
+        margin: 10px 2vw;
+        font-weight: 600;
+      }
+    }
+    .especialidad {
+      margin: 10px 25vw;
+      display: flex;
+      justify-content: center;
+      .titulo {
+        font-weight: 600;
+        color: black;
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+

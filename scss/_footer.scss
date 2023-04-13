@@ -1,0 +1,13 @@
+.footer {
+  text-align: center;
+  .stilofooter {
+    img {
+      width: 40px;
+      margin-left: 15px;
+    }
+
+    &.telefono {
+      color: rgb(8, 8, 8);
+    }
+  }
+}
