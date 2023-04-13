@@ -15,28 +15,28 @@
   cursor: pointer;
   transition: all 0.1s ease-in-out;
 }
-// page descripcion 
+// page descripcion
 #foto-descripción {
-  width: 400px;
-  background-position: left;
-  margin-left: 100px;
-  margin-top: 10%;
-}
-.imagenpersonal {
-  margin-top: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
-}
-.descripcion-personal {
-    border-radius: 30px;
-    box-shadow: 5px 8px 12px black;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    &:hover {
-      transform: scale(1.1);
-    }
+    width: 400px;
+    background-position: left;
+    margin-left: 100px;
+    margin-top: 10%;
   }
-  
+  .imagenpersonal {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 0.5px;
+  }
+.descripcion-personal {
+  border-radius: 30px;
+  box-shadow: 5px 8px 12px black;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
 .contactoimg {
   background: url(../img/contactanos.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -51,7 +51,7 @@
   .container {
     text-align: center;
   }
-//   page unite al equipo
+  //   page unite al equipo
 }
 .imagenunitealequipo {
   background-image: url(../img/foto\ unite\ al\ equipo.jpg);
@@ -89,5 +89,3 @@
     }
   }
 }
-
-

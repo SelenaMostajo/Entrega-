@@ -34,7 +34,7 @@
 .imagenpersonal {
   margin-top: 10px;
   margin-right: 10px;
-  margin-left: 10px;
+  margin-left: 0.5px;
 }
 
 .descripcion-personal {
@@ -104,7 +104,7 @@
   font-size: larger;
   font-weight: 700;
   float: right;
-  margin-right: 10vw;
+  margin-right: 13vw;
   width: 600px;
   margin-top: 100px;
   color: #000000;
@@ -116,10 +116,10 @@
   background-clip: text;
 }
 
-.textoprincipalhome {
+.titulohomedescripcion {
   font-size: xx-small;
-  color: #fff;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .footer {
@@ -128,12 +128,13 @@
 .footer .stilofooter img {
   width: 40px;
   margin-left: 15px;
+  padding-top: 30px;
 }
 .footer .stilofooter.telefono {
   color: rgb(8, 8, 8);
 }
 
-.textocontacto {
+.text {
   background: transparent;
   display: table;
   flex-direction: column;
@@ -167,7 +168,7 @@
   text-align: center;
   font-weight: 700;
   height: 100px;
-  font-size: 45px;
+  font-size: 30px;
   color: #f6f6f6;
 }
 
