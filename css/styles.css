@@ -1,7 +1,10 @@
 @charset "UTF-8";
-.fondo-gradiente {
-  background: rgb(13, 13, 18);
-  background: linear-gradient(90deg, rgb(13, 13, 18) 20%, rgb(216, 223, 224) 50%, rgb(19, 21, 29) 80%);
+.botones {
+  float: right;
+  font-size: medium;
+  font-weight: 300;
+  color: white;
+  display: inline;
 }
 
 .portada-home {
@@ -21,62 +24,14 @@
   transition: all 0.1s ease-in-out;
 }
 
-.botones {
-  float: right;
-  font-size: medium;
-  font-weight: 300;
-  color: white;
-  display: inline;
+#foto-descripción {
+  width: 400px;
+  background-position: left;
+  margin-left: 100px;
+  margin-top: 10%;
 }
 
-#logo {
-  font-size: medium;
-  font-weight: 500;
-  color: white;
-}
-
-.textoprincipalhome {
-  color: rgb(254, 254, 254);
-  text-align: center;
-}
-
-.homefondo {
-  background-position: center center;
-  text-align: center;
-  background-attachment: fixed;
-  background-size: cover;
-  width: 1335px;
-  height: 500px;
-}
-
-.descripcion {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: larger;
-  font-weight: 700;
-  float: right;
-  margin-right: 10vw;
-  width: 600px;
-  margin-top: 100px;
-  color: #000000;
-  color: #fff;
-  background-image: linear-gradient(45deg, #000000 20%, #8a0606 35%, #ffffff 85%, #ffffff 100%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  color: #000000;
-  background-clip: text;
-}
-
-.tamaño {
-  font-size: xx-large;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  font-weight: 700;
-  height: 100px;
-  font-size: 45px;
-  color: #f6f6f6;
-}
-
-.imagenyo {
+.imagenpersonal {
   margin-top: 10px;
   margin-right: 10px;
   margin-left: 10px;
@@ -92,16 +47,6 @@
   transform: scale(1.1);
 }
 
-#yo {
-  width: 400px;
-  background-position: left;
-  margin-left: 100px;
-}
-
-.black-background {
-  background-color: black;
-}
-
 .contactoimg {
   background: url(../img/contactanos.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -114,31 +59,8 @@
   justify-content: center;
   align-items: center;
 }
-
 .contactoimg .container {
   text-align: center;
-}
-
-.textocontacto {
-  background: transparent;
-  display: table;
-  flex-direction: column;
-  height: 100px;
-  font-size: larger;
-  color: white;
-  float: left;
-  margin: 0%;
-  margin-top: 50px;
-}
-
-.formulariocontacto {
-  text-align: right;
-  font-size: 20px;
-}
-
-.anv {
-  background-color: black;
-  color: white;
 }
 
 .imagenunitealequipo {
@@ -175,6 +97,82 @@
   font-weight: 600;
   color: black;
   margin-right: 5px;
+}
+
+.descripcion {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  font-weight: 700;
+  float: right;
+  margin-right: 10vw;
+  width: 600px;
+  margin-top: 100px;
+  color: #000000;
+  color: #fff;
+  background-image: linear-gradient(45deg, #000000 20%, #8a0606 35%, #ffffff 85%, #ffffff 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  color: #000000;
+  background-clip: text;
+}
+
+.textoprincipalhome {
+  font-size: xx-small;
+  color: #fff;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
+.footer .stilofooter img {
+  width: 40px;
+  margin-left: 15px;
+}
+.footer .stilofooter.telefono {
+  color: rgb(8, 8, 8);
+}
+
+.textocontacto {
+  background: transparent;
+  display: table;
+  flex-direction: column;
+  height: 100px;
+  font-size: larger;
+  color: #fff;
+  float: left;
+  margin: 0%;
+  margin-top: 50px;
+}
+
+.formulariocontacto {
+  text-align: right;
+  font-size: 20px;
+}
+
+.fondo-gradiente {
+  background: rgb(13, 13, 18);
+  background: linear-gradient(90deg, rgb(13, 13, 18) 20%, rgb(216, 223, 224) 50%, rgb(19, 21, 29) 80%);
+}
+
+#logo {
+  font-size: medium;
+  font-weight: 500;
+  color: white;
+}
+
+.tamaño {
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: 700;
+  height: 100px;
+  font-size: 45px;
+  color: #f6f6f6;
+}
+
+.black-background {
+  background-color: black;
 }
 
 .formularioalin {
@@ -218,17 +216,6 @@
 }
 .enlacesimagenesservicios a img {
   width: 25vw;
-}
-
-.footer {
-  text-align: center;
-}
-.footer .stilofooter img {
-  width: 40px;
-  margin-left: 15px;
-}
-.footer .stilofooter.telefono {
-  color: rgb(8, 8, 8);
 }
 
 /*# sourceMappingURL=styles.css.map */
